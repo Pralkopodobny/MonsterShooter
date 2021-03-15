@@ -1,0 +1,64 @@
+{
+    "name": "InputMaster",
+    "maps": [
+        {
+            "name": "Game",
+            "id": "a321945c-2b38-4eb8-94fe-0af323017c92",
+            "actions": [
+                {
+                    "name": "Restart",
+                    "type": "Button",
+                    "id": "71cef601-f5ab-4c34-8b5b-507dc4c63974",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                },
+                {
+                    "name": "GoToMenu",
+                    "type": "Button",
+                    "id": "d1196009-a855-4001-a112-0561debc1177",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Press"
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "01f000b4-7b32-4d3e-b6c0-2ba5e1cf5663",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "New control scheme",
+                    "action": "Restart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d8bef5a0-84ba-4405-87a2-54322cc4d2c6",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "New control scheme",
+                    "action": "GoToMenu",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "New control scheme",
+            "bindingGroup": "New control scheme",
+            "devices": [
+                {
+                    "devicePath": "<Keyboard>",
+                    "isOptional": false,
+                    "isOR": false
+                }
+            ]
+        }
+    ]
+}
